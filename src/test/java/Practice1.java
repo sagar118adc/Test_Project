@@ -8,10 +8,10 @@ import java.time.Duration;
 
 public class Practice1 {
 
-    @BeforeSuite
-    public void beforeSuite() {
-        System.out.println("Before Suite ");
-    }
+//    @BeforeSuite
+//    public void beforeSuite() {
+//        System.out.println("Before Suite ");
+//    }
 
     @BeforeClass
     public void beforeClass() {
