@@ -33,10 +33,10 @@ public class Practice1 {
         System.out.println("Printed after method");
     }
 
-    @AfterTest
-    public void afterTest(){
-        System.out.println("printed After Test");
-    }
+//    @AfterTest
+//    public void afterTest(){
+//        System.out.println("printed After Test");
+//    }
 
     @AfterClass
     public void afterClass() {
