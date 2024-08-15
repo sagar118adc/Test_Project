@@ -60,7 +60,7 @@ public class Practice1 {
         WebElement textBox = driver.findElement(By.name("my-text"));
         WebElement submitButton = driver.findElement(By.cssSelector("button"));
 
-        textBox.sendKeys("Selenium");
+        textBox.sendKeys("Sagar");
         submitButton.click();
 
         WebElement message = driver.findElement(By.id("message"));
