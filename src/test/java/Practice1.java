@@ -33,10 +33,10 @@ public class Practice1 {
         System.out.println("Printed after method");
     }
 
-    @AfterTest
-    public void afterTest(){
-        System.out.println("printed After Test");
-    }
+//    @AfterTest
+//    public void afterTest(){
+//        System.out.println("printed After Test");
+//    }
 
     @AfterClass
     public void afterClass() {
@@ -60,7 +60,7 @@ public class Practice1 {
         WebElement textBox = driver.findElement(By.name("my-text"));
         WebElement submitButton = driver.findElement(By.cssSelector("button"));
 
-        textBox.sendKeys("Sagar");
+        textBox.sendKeys("Sagar118");
         submitButton.click();
 
         WebElement message = driver.findElement(By.id("message"));
